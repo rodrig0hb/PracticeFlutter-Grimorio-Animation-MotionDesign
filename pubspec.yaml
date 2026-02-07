@@ -1,0 +1,59 @@
+name: grimorio
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.8+4
+  flutter_svg: ^2.0.7
+  http: ^1.1.0
+  path: ^1.8.3
+  flutter_native_splash: ^2.4.7
+  carousel_slider: ^5.1.1
+  lottie: ^3.3.2
+  animations: ^2.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/star_icon.svg
+    - assets/images/alternative_star_icon.svg
+    - assets/images/background.svg
+    - assets/images/logo.svg
+    - assets/images/grimorio.png
+    - assets/images/more_stars.svg
+    - assets/images/grimorio_empty.svg
+    - assets/images/grimorio_1152.png
+    - assets/images/grimorio_titulo_1152.png
+    - assets/carousel/
+    - assets/animations/
+  
+  fonts:
+  - family: Bigelow Rules
+    fonts:
+      - asset: assets/fonts/BigelowRules-Regular.ttf
+  
+flutter_native_splash:
+  color: "#4D1245"
+  image: assets/images/grimorio.png
+  android_12:
+    color: "#4D1245"
+    icon_background_color: "#4D1245"
+    image: assets/images/grimorio_1152.png
